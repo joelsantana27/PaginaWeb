@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuco Explora | Elige tu desafio del templo</title>
+    <meta
+      name="description"
+      content="Cuco Explora reune juegos de logica y agilidad mental en una aventura tematica de templo."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow bg-glow-a"></div>
+    <div class="bg-glow bg-glow-b"></div>
+
+    <header class="container topbar" data-reveal>
+      <a class="brand" href="./index.html" aria-label="Inicio de Cuco Explora">
+        <span class="brand-mark">CE</span>
+        <span class="brand-text">Cuco Explora</span>
+      </a>
+      <nav class="nav">
+        <a href="#juegos">Juegos</a>
+        <a href="#descargar">Descargar</a>
+        <a href="./privacy.html">Privacidad</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container hero">
+        <div class="hero-copy" data-reveal>
+          <p class="kicker">Aventura + Logica</p>
+          <h1>Domina el templo con tu mente</h1>
+          <p class="lead">
+            Cuco Explora combina retos rapidos y puzzles clasicos para jugar en
+            cualquier momento. Elige tu desafio, supera rondas y mejora tus
+            tiempos.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#descargar">Probar en Android</a>
+            <a class="btn btn-ghost" href="#juegos">Ver modos de juego</a>
+          </div>
+        </div>
+        <div class="hero-card" data-reveal>
+          <p class="mini-title">Modo estrella</p>
+          <h2>Sudoku del Templo</h2>
+          <ul>
+            <li>Modo Facil e Intermedio</li>
+            <li>Seguimiento de errores y tiempo</li>
+            <li>Sistema de pistas por partida</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="container section" id="juegos">
+        <div class="section-head" data-reveal>
+          <p class="kicker">3 desafios</p>
+          <h3>Elige como quieres jugar</h3>
+        </div>
+        <div class="grid">
+          <article class="panel" data-reveal>
+            <h4>Adivina la Carta</h4>
+            <p>
+              Un clasico mental de seleccion y memoria. Sigue las rondas y
+              descubre la carta correcta.
+            </p>
+          </article>
+          <article class="panel" data-reveal>
+            <h4>Adivino el Numero</h4>
+            <p>
+              Juego matematico rapido para sorprender al jugador con resultado
+              exacto tras seguir pasos guiados.
+            </p>
+          </article>
+          <article class="panel" data-reveal>
+            <h4>Sudoku</h4>
+            <p>
+              Resuelve la cuadricula sin repetir numeros en filas, columnas ni
+              bloques 3x3.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section strip" id="descargar" data-reveal>
+        <div>
+          <p class="kicker">Android</p>
+          <h3>Disponible para pruebas cerradas</h3>
+          <p>
+            Si formas parte del grupo de test, instala la version mas reciente
+            y envia feedback para mejorar el juego.
+          </p>
+        </div>
+        <a class="btn btn-primary" href="#" aria-disabled="true"
+          >Proximamente en Play Store</a
+        >
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>(c) <span id="year"></span> Cuco Explora</p>
+      <a href="./privacy.html">Politica de Privacidad</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
